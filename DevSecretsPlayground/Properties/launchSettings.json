@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "DevSecretsPlaygroundDev": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Db__ConnectionString": "FROM_launchSettings.json.Development",
+        "ApiIntegration__ApiKey": "FROM_launchSettings.json.Development"
+      }
+    },
+    "DevSecretsPlaygroundProd": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production",
+        "Db__ConnectionString": "FROM_launchSettings.json.Production",
+        "ApiIntegration__ApiKey": "FROM_launchSettings.json.Production"
+      }
+    }
+  }
+}

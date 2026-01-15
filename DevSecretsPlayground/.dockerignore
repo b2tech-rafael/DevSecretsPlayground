@@ -1,0 +1,16 @@
+# Exclude project environment files with secrets
+.env
+
+# Keep your per-project .dockerignore too
+.dockerignore
+
+# Standard .NET artifacts to keep image small and build fast
+bin/
+obj/
+
+# IDE / VCS noise
+.vs/
+*.user
+*.suo
+.git
+.gitignore
