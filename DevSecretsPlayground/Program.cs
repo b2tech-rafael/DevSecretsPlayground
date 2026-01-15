@@ -38,7 +38,7 @@ var builder = new ConfigurationBuilder()
     // .NET User Secrets (dev only; works if you init + set them)
     .AddUserSecrets<Program>(optional: true)
     // Environment variables (includes values set by .env and launchSettings.json)
-    .AddEnvironmentVariables()
+    // .AddEnvironmentVariables()
     // Highest
     .AddCommandLine(args);
 
