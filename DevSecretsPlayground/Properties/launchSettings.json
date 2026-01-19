@@ -5,7 +5,10 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "Db__ConnectionString": "FROM_launchSettings.json.Development",
-        "ApiIntegration__ApiKey": "FROM_launchSettings.json.Development"
+        "AWS_SSM_ENABLED": "true",
+        "AWS_REGION": "eu-central-1",
+        "AWS_SSM_PATH": "/b2tech",
+        "AWS_SSM_SERVICE_PATH": "devplayground"
       }
     },
     "DevSecretsPlaygroundProd": {
@@ -13,7 +16,10 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Production",
         "Db__ConnectionString": "FROM_launchSettings.json.Production",
-        "ApiIntegration__ApiKey": "FROM_launchSettings.json.Production"
+        "AWS_SSM_ENABLED": "true",
+        "AWS_REGION": "eu-central-1",
+        "AWS_SSM_PATH": "/b2tech",
+        "AWS_SSM_SERVICE_PATH": "devplayground"
       }
     }
   }
