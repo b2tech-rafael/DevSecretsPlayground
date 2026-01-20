@@ -6,7 +6,6 @@
         "ASPNETCORE_ENVIRONMENT": "Development",
         "Db__ConnectionString": "FROM_launchSettings.json.Development",
         "AWS_SSM_ENABLED": "true",
-        "AWS_REGION": "eu-central-1",
         "AWS_SSM_PATH": "/b2tech",
         "AWS_SSM_SERVICE_PATH": "devplayground"
       }
